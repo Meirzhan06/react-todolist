@@ -1,0 +1,27 @@
+.todo{
+    padding: 0 10px;
+    border-top: 1px solid #D7D7D7;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo>div{
+    display: flex;
+    align-items: center;
+}
+.checkbox{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 1px solid #D7D7D7;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.title{
+    margin-left: 15px;
+    color: #747474;
+}

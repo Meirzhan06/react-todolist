@@ -1,0 +1,12 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #F0F0F0;
+}
+.todoSection{
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

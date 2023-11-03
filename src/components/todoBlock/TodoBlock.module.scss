@@ -1,0 +1,36 @@
+.todoBlock{
+    padding: 30px 40px 0 40px;
+    background-color: #fff;
+    width: 580px;
+    height: 600px;
+    border-radius: 5px;
+    h2{
+        text-align: center;
+        font-size: 36px;
+    }
+}
+.setTodo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    input{
+        padding-left: 10px;
+        background-color: #F4F4F4;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #dddddd3c;
+        width: 70%;
+    }
+    button{
+        width: 116px;
+        height: 40px;
+        background-color: #56B456;
+        color: #fff;
+        border: none;
+        border-radius: 2px;
+        font-size: 17px;
+    }
+}
+.todos{
+    margin-top: 30px;
+}
